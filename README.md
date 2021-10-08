@@ -57,3 +57,11 @@ By using the above command we will be able to Download stopwords from NLTK libra
 ### Data set link for kaggel
 * https://www.kaggle.com/datatattle/covid-19-nlp-text-classification
 
+## Description
+
+* During these times of hardship mankind has to face with a series of emotions. Analysis of all these emotions becomes a primary target for the well-being of an individual and mankind as a whole. 
+The main motive of the project is to analyze these emotions correctly. 
+For this study we will be considering only the corona virus related tweets from Twitter. Analysis of all these tweets will give us a proper insight about the real emotions that the people has to face during these COVID-19 times. The main objective is to work with multinomial attributed to assess the sentiments more precisely. 
+The next step is cleaning the data and preprocessing. Hereafter a model is developed which is used to access the data and then predict the actual sentiment behind the tweet. 
+The data is assessed using the binary-class and multi-class property with the cross-data evaluation of various machine learning algorithms to form the model. 
+After tedious training of models, it is seen that the proposed model gives us a 94.85% on train data accuracy with Support Vector Machine algorithm. I have provided hyper parameter tunning code as well you can try if required.
